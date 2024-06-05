@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Heading, Box, Image, Link, HStack } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -6,6 +7,11 @@ const Index = () => {
       <VStack spacing={8} align="stretch">
         <Box textAlign="center">
           <Heading as="h1" size="2xl" mb={4}>Welcome to My Blog</Heading>
+          <Box textAlign="center" mt={4}>
+            <Link as={RouterLink} to="/add-post" color="teal.500" fontSize="lg">
+              Add New Post
+            </Link>
+          </Box>
           <Text fontSize="lg">A place where I share my thoughts and experiences.</Text>
         </Box>
         <Box>
