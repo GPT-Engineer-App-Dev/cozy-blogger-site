@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useColorModeValue } from "react";
 import { Container, VStack, Heading, Box, Input, Textarea, Button, FormControl, FormLabel, FormErrorMessage, Image, useToast, useColorModeValue } from "@chakra-ui/react";
 
 const AddPost = () => {

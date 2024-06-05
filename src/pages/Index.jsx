@@ -1,5 +1,6 @@
-import { Container, Text, VStack, Heading, Box, Image, Link, HStack } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Box, Image, Link } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
+import { useColorModeValue } from "@chakra-ui/react";
 
 const Index = () => {
   return (
